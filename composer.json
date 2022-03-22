@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "type": "project",
+    "autoload": {
+	"files": [
+	    "src/Cli.php"
+	]
+    },
+    "authors": [
+        {
+            "name": "MaksimRosh",
+            "email": "roshms@mail.ru"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "bin": [
+	"bin/gendiff"
+    ]
+}
